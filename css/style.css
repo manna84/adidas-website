@@ -31,7 +31,8 @@ header {
 }
 
 .main-logo {
-    height: 10em;
+    height: 6em;
+    margin: 1em;
 }
 
 .main-nav ul {
@@ -52,4 +53,25 @@ header {
 .main-search img {
     height: 2em;
     margin: 3em 2em 0 0;
+}
+
+/*-------------------Shoe Section-----------------*/
+
+.section-shoe {
+    text-align: right;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-shoe img {
+    height: 50em;
+}
+
+h1 {
+    font-size:300%;
+    color: #e62129;
+    font-weight: bold;
+    word-spacing: 4px;
+    letter-spacing: 8px;
+    text-align: center;
 }
