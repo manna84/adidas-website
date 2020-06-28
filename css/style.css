@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+/*-------------------Basic Setup-----------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {list-style: none;}
+a {text-decoration: none;}
+
+body {
+    background-color: #ecf253;
+    background-image: linear-gradient(#edf253d2, #edf253d2), url(/css/img/boxing.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    font-family: 'lato',Arial, Helvetica, sans-serif;
+    color: #555555;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/*-------------------Header-----------------*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-logo {
+    height: 10em;
+}
+
+.main-nav ul {
+    display: flex;
+    margin-top: 4em;
+}
+
+.main-nav ul a {
+    font-size: 1.5em;
+    margin-left: 1em;
+    letter-spacing: .125em;
+}
+
+.main-nav ul li:first-of-type a:first-of-type {
+    margin-left: 0;
+}
+
+.main-search img {
+    height: 2em;
+    margin: 3em 2em 0 0;
+}
