@@ -1,0 +1,117 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 360px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1920px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .article-price {
+        top: 32%;
+    }
+
+    .article-shoe img {
+        height: 35em;
+        margin-top: 5%;
+    }
+
+    .price-tag {
+        font-size: 3em;
+        top: -3%;
+    }
+
+    .main-info {
+        margin-top: 25%;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    h3 {
+        font-size: 2.5em;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1366px) {
+   
+  .main-logo {
+      height: 4em;
+  }
+
+  .main-nav ul {
+      margin-top: 2em;
+  }
+  
+
+  .main-nav ul a {
+      font-size: 1em;
+  }
+
+  h1 {
+      font-size: 1.5em;  
+    }
+
+  /* .article-shoe {
+      width: 40%;
+  } */
+
+  .article-shoe img {
+      height: 25em;
+  }
+ 
+  .article-price {
+    top: 26%;
+  }
+
+  .price-tag {
+      font-size: 1.6em;
+      padding-top: 5.5%;
+  }
+ 
+  .main-info {
+      margin-top: 17%;
+  }
+
+  h2 {
+      font-size: 2.5em;
+      margin-top: 10%;
+      width: 90%;
+  }
+
+  h3 {
+      font-size: 2em;
+      margin-top: .5em;
+  }
+
+  .main-info a {
+      padding: 1.5%;
+      font-size: 1.4em;
+      margin: 1em auto;
+  }
+
+  footer {
+      margin-top: .4em;
+  }
+
+  footer p {
+      font-size: .8em;
+  }
+
+  .shoes-small {
+      height: 12em;
+      top: 60%;
+  }
+
+} 
