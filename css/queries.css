@@ -1,14 +1,11 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 360px) {}
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {}
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {}
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {}
+
+
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1920px) {
@@ -43,6 +40,144 @@
     }
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 1600px) {
+    .main-logo {
+        height: 4em;
+    }
+  
+    .main-nav ul {
+        margin-top: 2em;
+    }
+    
+  
+    .main-nav ul a {
+        font-size: 1em;
+    }
+  
+    h1 {
+        font-size: 2em;  
+      }
+  
+    .article-shoe img {
+        height: 30em;
+    }
+   
+    .article-price {
+        top: 23%;
+      }
+  
+    .price-tag {
+        font-size: 2em;
+        padding-top: 6%;
+    }
+   
+    .main-info {
+        margin-top: 20%;
+    }
+  
+    h2 {
+        font-size: 3em;
+        width: 90%;
+    }
+  
+    h3 {
+        font-size: 2em;
+        margin-top: 1em;
+    }
+  
+    .main-info a {
+        padding: 1.5%;
+        font-size: 1.4em;
+        margin: 2em auto;
+    }
+  
+    footer {
+        margin-top: 1em;
+    }
+  
+    footer p {
+        font-size: .8em;
+    }
+  
+    .shoes-small {
+        height: 12em;
+        top: 60%;
+    }
+  
+  
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 1440px) {
+    .main-logo {
+        height: 4em;
+    }
+  
+    .main-nav ul {
+        margin-top: 2em;
+    }
+    
+  
+    .main-nav ul a {
+        font-size: 1em;
+    }
+  
+    h1 {
+        font-size: 2em;  
+      }
+  
+    .article-shoe img {
+        height: 30em;
+    }
+   
+    .article-price {
+        top: 23%;
+      }
+  
+    .price-tag {
+        font-size: 2em;
+        padding-top: 6%;
+    }
+   
+    .main-info {
+        margin-top: 17%;
+    }
+  
+    h2 {
+        font-size: 2.5em;
+        margin-top: 10%;
+        width: 90%;
+    }
+  
+    h3 {
+        font-size: 2em;
+        margin-top: .5em;
+    }
+  
+    .main-info a {
+        padding: 1.5%;
+        font-size: 1.4em;
+        margin: 1.5em auto;
+    }
+  
+    footer {
+        margin-top: 1em;
+    }
+  
+    footer p {
+        font-size: .8em;
+    }
+  
+    .shoes-small {
+        height: 12em;
+        top: 60%;
+    }
+  
+  
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 1366px) {
    
@@ -62,10 +197,6 @@
   h1 {
       font-size: 1.5em;  
     }
-
-  /* .article-shoe {
-      width: 40%;
-  } */
 
   .article-shoe img {
       height: 25em;
@@ -115,3 +246,151 @@
   }
 
 } 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1280px) {
+    .article-price {
+        top: 24%;
+    }
+
+    .article-shoe img {
+        height: 22em;
+    }
+
+    .shoes-small {
+        height: 10em;
+        left: 83%;
+    }
+
+    footer {
+        margin-top: 1.3em;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 800px) {
+    header {
+        height: 11vh;
+    }
+    .main-nav ul {
+        display: none;
+    }
+
+    .main-logo {
+        height: 3em;
+    }
+
+    
+
+    .main-search img {
+        height: 1.5em;
+        margin: 2em 1em 0 0;
+    }
+
+    h1 {
+        font-size: 95%;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    h3 {
+        font-size: 1em;
+        margin-top: 1.5em;
+    }
+
+    .main-info a {
+        font-size: 1em;
+        width: 60%;
+        padding: 1em 1em;
+    }
+
+    .main-info {
+        margin-top: 30%;
+    }
+
+    .article-shoe img {
+        height: 17em;
+        
+    }
+
+    .shoes-small {
+        left: 75%;
+        height: 8em;
+    }
+
+    footer {
+        margin-top: 5.2em;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 360px) {
+    .main-search {
+        display: none;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    h1 {
+        margin-top: 2em;
+    }
+
+    .main-logo {
+        height: 4em;
+    }
+
+    .shoes-small {
+        display: none;
+    }
+
+    .article-shoe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .article-price {
+        background-color: transparent;
+        width: 100%;
+    }
+
+    .price-tag {
+        display: none;
+    }
+
+    .main-info {
+        width: 100%; 
+    }
+
+    h2 {
+        font-size: 1em;
+        width: 100%;
+        margin-top: 16em;
+        color: #e62129;
+    }
+
+    .main-info a {
+        background-color: #e62129;
+        color: #ffffff  ;
+    }
+
+    h3 {
+        display: none;
+    }
+
+    footer {
+        margin-top: 5.86em;
+        height: 7vh;
+    }
+
+    footer p {
+        font-size: .8em;
+    }
+
+    
+
+}
