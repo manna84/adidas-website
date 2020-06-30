@@ -15,7 +15,7 @@ a {text-decoration: none;}
 
 body {
     background-color: #ecf253;
-    background-image: linear-gradient(#edf253d2, #edf253d2), url(./css/img/boxing.jpg);
+    background-image: linear-gradient(#edf253d2, #edf253d2), url(img/boxing.jpg);
     background-position: center;
     background-size: cover;
     
